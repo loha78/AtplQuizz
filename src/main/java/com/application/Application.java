@@ -13,8 +13,10 @@ public class Application implements CommandLineRunner {
 
   private static Log log = LogFactory.getLog(Application.class);
 
+  
   @Autowired
   JdbcTemplate jdbcTemplate;
+  
 
   @Override
   public void run(String...strings) throws Exception{

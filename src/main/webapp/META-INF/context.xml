@@ -1,7 +1,7 @@
 <!--context file for tomcat server -->
 <Context>
   <Resource
-    name="jdbc/ATPLQuizz"
+    name="jdbc/dataSource"
     auth="Container"
     type="javax.sql.DataSource"
     driverClassName="org.postgresql.Driver"
